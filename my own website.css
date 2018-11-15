@@ -1,0 +1,67 @@
+body {
+	background-image: url("no more cancer.jpg");
+	background-size: cover;
+	margin: 7px;
+
+}
+
+a:link { 
+	color: red;
+ }
+
+ a:visited {
+ 	color: blue;
+ }
+
+ a:hover {
+ 	color: green;
+ }
+
+ a:acitve {	
+ 	color: black;
+ }
+
+ form {
+ 	width: 300px;
+ }
+ 
+p {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 35px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 11px
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: flex;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+img {
+	width:350px;
+	height: 250px;
+	margin: 20px;
+	transition: all 1s;
+	cursor: pointer;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+footer {
+	text-align: center;
+}
